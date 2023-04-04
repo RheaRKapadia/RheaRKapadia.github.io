@@ -1,13 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    /*flex-wrap: wrap;*/
+    color: hsl(220, 1%, 51%);
+    display: flex;
+}
+
 body {
-    /*min-width: 1140px;*/
-    /*min-height: 824px;*/
+
     background-color: hsl(36, 100%, 99%);
     margin: 100px 150px 100px 150px;
-    /*display: grid;*/
-    /*gap: 20px;*/
-    /*grid-template-columns: repeat(8, minmax(0, 1fr));*/
-    /*grid-template-rows: repeat(8, minmax(0, 1fr));*/
+    font-family: 'Inter', sans-serif;
 }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: aqua;
+    margin: 40px 0 0 0;
+}
+
+.mainpic {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    height: min-content;
+}
+
+.New{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    width: 300px;
+    background-color: hsl(240, 100%, 5%);
+}
+
+.title {
+    color: #F0BB5F;
+}
+
+.subtitle {
+    color: #FAF9FD;
+}
+
+.info {
+    color: #C1C1D3;
+    font-size: 15px;
+
+}
+ hr {
+     height: 1px;
+     border: 0;
+     border-top: 1px solid #C1C1D3;
+     margin: 1em 0;
+     padding: 0;
+ }
+
+ .brightTitleLarge {
+     display: flex;
+     flex: 1 1 auto;
+ }
+/*.Bright {*/
+/*    display: flex;*/
+/*}*/
 
 .attribution {
     font-size: 11px;
@@ -17,33 +91,5 @@ body {
     color: hsl(228, 45%, 44%);
 }
 
-li {
-    float: right;
-    list-style-type: none;
-    padding-right: 10px;
-}
 
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    background-color: aqua;
-}
 
-/*.header {*/
-/*    grid-column: 1 / 9;*/
-/*    grid-row: 1;*/
-/*}*/
-/* img.header {grid-column: 1;} */
-
-/*.mainpic {*/
-/*    */
-/*}*/
-
-/*img.mainpic {*/
-/*    !*height: 261px;*!*/
-/*    !*max-width: 753px;*!*/
-/*    grid-column: 1 / 6;*/
-/*    grid-row: 2 / 4;*/
-/*}*/
